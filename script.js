@@ -45,6 +45,9 @@ function changeValue() {
 function Win() {
     Score[0] ++
     resp.innerHTML = "Vous avez Gagné"
+    confetti({
+        spread: 90
+    });
 }
 
 function Loose() {

@@ -3,3 +3,50 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: rgb(32, 32, 32);
+}
+
+button{
+    background-color: transparent;
+    border: #fff 3px solid;
+    padding: 1vh 3vw;
+    border-radius: 50px;
+    font-size: 1.25em;
+    color: #fff;
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #fff;
+    color: black;
+}
+
+.game{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 0;
+    gap: 10px;
+}
+
+.camera_frame{
+    margin: 10px 0;
+    border-radius: 32px;
+    background-color: red;
+    width: 60vw;
+    height: 60vh;
+}
+
+.choice{
+    gap: 5vw;
+    display: flex;
+}

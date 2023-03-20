@@ -41,12 +41,21 @@ button:hover{
 .camera_frame{
     margin: 10px 0;
     border-radius: 32px;
-    background-color: red;
     width: 60vw;
-    height: 60vh;
+    height: 50vh;
 }
 
 .choice{
     gap: 5vw;
     display: flex;
+}
+
+.p5Canvas{
+    position: absolute;
+    width: 40vw !important;
+    height: 55vh !important;
+    top: 20vh;
+    left: 50vw;
+    transform: translate(-50%, 0);
+    border-radius: 32px;
 }
